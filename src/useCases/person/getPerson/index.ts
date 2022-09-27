@@ -1,0 +1,1 @@
+export { getPersonUseCase } from './getPersonUseCase'

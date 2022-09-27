@@ -1,0 +1,1 @@
+export { updatePersonUseCase } from './updatePersonUseCase'

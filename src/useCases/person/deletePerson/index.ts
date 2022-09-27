@@ -1,0 +1,1 @@
+export { deletePersonUseCase } from './deletePersonUseCase'
