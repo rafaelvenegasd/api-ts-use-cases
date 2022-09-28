@@ -27,6 +27,7 @@
 	},
 	"dependencies": {
 		"@types/node": "^18.7.23",
+		"convict": "^6.2.3",
 		"dotenv": "^16.0.2",
 		"express": "^4.18.1"
 	}

@@ -1,11 +1,12 @@
 const express = require('express')
 const dotenv = require('dotenv')
+import { configProps } from './config'
 import { useCaseRouter } from './routers/useCaseRouter'
 
 dotenv.config()
 
 const app = express()
-const port = process.env.PORT
+const port = configProps.port
 
 app.get('/', (req, res) => {
 	res.send('Here!')
